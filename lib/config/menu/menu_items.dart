@@ -6,28 +6,27 @@ class MenuItem {
   final String link;
   final IconData icon;
 
-  const MenuItem({
-      required this.title,
+  const MenuItem(
+      {required this.title,
       required this.subTitle,
       required this.link,
-      required this.icon
-      });
-} 
+      required this.icon});
+}
 
 const appMenuItems = <MenuItem>[
   MenuItem(
       title: 'Botones',
       subTitle: 'Varios botones en Flutter',
       link: '/buttons',
-      icon: Icons.smart_button_outlined
-      ),
-
-      MenuItem(
+      icon: Icons.smart_button_outlined),
+  MenuItem(
       title: 'Trajetas',
       subTitle: 'Un contenedor estilizado',
       link: '/cards',
-      icon: Icons.credit_card
-      ),
-
-
+      icon: Icons.credit_card),
+  MenuItem(
+      title: 'ProgressIndicators',
+      subTitle: 'Generales y controlados',
+      link: '/progress',
+      icon: Icons.refresh_rounded),
 ];
