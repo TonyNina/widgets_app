@@ -65,7 +65,7 @@ class _CardType1 extends StatelessWidget {
     return Card(
       elevation: elevation,
       child: Padding(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
+        padding: const EdgeInsets.fromLTRB(10, 5, 10, 10),
         child: Column(
           children: [
             Align(
@@ -102,7 +102,7 @@ class _CardType2 extends StatelessWidget {
           side: BorderSide(color: colors.outline)),
       elevation: elevation,
       child: Padding(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
+        padding: const EdgeInsets.fromLTRB(10, 5, 10, 10),
         child: Column(
           children: [
             Align(
@@ -137,7 +137,7 @@ class _CardType3 extends StatelessWidget {
       color: colors.surfaceVariant,
       elevation: elevation,
       child: Padding(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
+        padding: const EdgeInsets.fromLTRB(10, 5, 10, 10),
         child: Column(
           children: [
             Align(
@@ -181,7 +181,7 @@ class _CardType4 extends StatelessWidget {
           Align(
             alignment: Alignment.topRight,
             child: Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20))
               ),
