@@ -12,7 +12,7 @@ class MenuItem {
       required this.link,
       required this.icon
       });
-}
+} 
 
 const appMenuItems = <MenuItem>[
   MenuItem(
